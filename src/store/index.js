@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { appSettings } from './app-settings'
+import appSettings from './appSettings'
 
 Vue.use(Vuex)
 const store = new Vuex.Store({
