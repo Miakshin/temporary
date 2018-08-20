@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  padding:0;
+  outline: none;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h4,h6{
+  margin:0;
+  padding:0;
+}
+button{
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+  body {
+    min-height: 100vh;
+    font-size: 1.4rem;
+    font-family: $main-regular-font;
+    .app-wrap {
+      min-height: inherit;
+      position: relative;
+      color: $main-font-color;
+      .h1,
+      .h2,
+      .h3,
+      .h4,
+      .h5,
+      .h6,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $main-font-color;
+      }
+    }
+  }
+}
